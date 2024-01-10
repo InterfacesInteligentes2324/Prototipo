@@ -38,6 +38,8 @@ El presente juego debe jugarse con mando o teclado, ya que se debe poder control
 
 Cuando iniciamos el juego, nos encontramos dentro una cabaña y nos llama la atención el mensaje de la pizarra, a la vez que comienza a sonar una música tenebrosa. En la pizarra se nos indica que debemos buscar un libro, y luego nos dicen que debemos usar nuestra magia, pulsando el botón B del mando, para mover una caja. Después de ello, debemos buscar una llave para abrir la puerta, y nos vamos a la siguiente habitación.
 
+> *Nota:* Durante el vídeo hay cortes de edición para que dure menos tiempo y por tanto el archivo pese menos.
+
 `videos/Primera parte.mp4`
 
 
@@ -54,7 +56,21 @@ Luego, nos vemos dentro de un hangar, donde una voz nos dice que debemos recoger
 
 `videos/Segunda parte.mp4`
 
-En la tercera habitación
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/c7c58462-4ab8-4dc0-ab7c-a832c5fe27fb
+
+
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/bdeba9bf-86cb-41b4-8852-faae815db091
+
+
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/01d3182d-7b72-4911-93de-d2be26d85acb
+
+
+
+
+En la tercera habitación, aparecemos en una casa y
 
 # Acta de trabajo
 
