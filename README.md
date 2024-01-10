@@ -40,6 +40,16 @@ Cuando iniciamos el juego, nos encontramos dentro una cabaña y nos llama la ate
 
 `videos/Primera parte.mp4`
 
+
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/1f4226e3-a566-4f49-9bd3-42bf43564a6e
+
+
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/f1866b91-debe-4324-aeea-7784d2a0e27a
+
+
+
 Luego, nos vemos dentro de un hangar, donde una voz nos dice que debemos recoger una maletas. En esta emulación en PC, como no tenemos sensores, no podemos utilizarlos, pero en móvil, las estatuas se mueven dependiendo de a dónde miremos, utilizando el giroscopio del móvil. Cuando recogemos las maletas, nos dicen que debemos buscar una llave, y nos vamos a la siguiente habitación.
 
 `videos/Segunda parte.mp4`
