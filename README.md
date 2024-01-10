@@ -18,11 +18,16 @@ Se trata de un juego de pistas de temática tenebrosa, en el que se debe ir sigu
 El presente juego debe jugarse con mando o teclado, ya que se debe poder controlar el movimiento del jugador y las teclas de acción del juego.
 
 > **Con mando**
+> 
 > *Teclas de movimiento*: Joystick del mando.
+> 
 > *Teclas de acción*: Botones del mando.
 >
+> 
 > **Con teclado**
+> 
 > *Teclas de movimiento*: Flechas de dirección.
+> 
 > *Teclas de acción*: Letras del teclado.
 
 # Hitos de programación logrados
