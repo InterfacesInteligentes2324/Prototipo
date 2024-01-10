@@ -36,7 +36,15 @@ El presente juego debe jugarse con mando o teclado, ya que se debe poder control
 
 # Funcionamiento de la aplicación
 
-Cuando iniciamos el juego, nos encontramos dentro una cabaña y se nos indica
+Cuando iniciamos el juego, nos encontramos dentro una cabaña y nos llama la atención el mensaje de la pizarra, a la vez que comienza a sonar una música tenebrosa. En la pizarra se nos indica que debemos buscar un libro, y luego nos dicen que debemos usar nuestra magia, pulsando el botón B del mando, para mover una caja. Después de ello, debemos buscar una llave para abrir la puerta, y nos vamos a la siguiente habitación.
+
+`videos/Primera parte.mp4`
+
+Luego, nos vemos dentro de un hangar, donde una voz nos dice que debemos recoger una maletas. En esta emulación en PC, como no tenemos sensores, no podemos utilizarlos, pero en móvil, las estatuas se mueven dependiendo de a dónde miremos, utilizando el giroscopio del móvil. Cuando recogemos las maletas, nos dicen que debemos buscar una llave, y nos vamos a la siguiente habitación.
+
+`videos/Segunda parte.mp4`
+
+En la tercera habitación
 
 # Acta de trabajo
 
