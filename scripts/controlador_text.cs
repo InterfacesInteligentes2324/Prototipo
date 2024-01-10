@@ -56,7 +56,7 @@ public class controlador_text : MonoBehaviour
         controlador_linterna3.AddOnePoint += AddOne;
 
         boxes = GameObject.FindGameObjectsWithTag("box");
-        keys = GameObject.FindGameObjectsWithTag("llave");
+        keys = GameObject.FindGameObjectsWithTag("key");
 
 
 
@@ -102,15 +102,15 @@ public class controlador_text : MonoBehaviour
         maletinesRecogidos++; // Incrementa el contador
         Debug.Log(maletinesRecogidos);
         maletinText.text = maletinesRecogidos + "/5 maletines recogidos"; // Actualiza el texto
-        if (maletinesRecogidos == 1)
+        /*if (maletinesRecogidos == 1)
         {
             historyText.text = "";
-        }
+        }*/
         if (maletinesRecogidos == 1)
         {
             AddOne();
             AparecerLlave();
-            historyText.text = "Excelente, has reunido todos los maletines. Aquí tienes la llave que desbloqueará la puerta hacia tu destino final.\n\nPresiona T para usar la puerta";
+            historyText.text = "Excelente, has reunido todos los maletines. Aquí tienes la llave que desbloqueará la puerta hacia tu destino final.\n\nPresiona T (A en el mando) para usar la puerta";
             maletinText.text = "";
         }
     }

@@ -64,7 +64,7 @@ public class controlador_llave : MonoBehaviour
             AddOnePoint();
             Debug.Log("Has mirado a llave 1");
 
-            history_llave("¡Vaya rapidez! ¿Ya has hallado la llave? Es hora de marcharnos. Continuemos nuestra exploración\n\nPresiona T para usar la puerta", 4);
+            history_llave("¡Vaya rapidez! ¿Ya has hallado la llave? Es hora de marcharnos. Continuemos nuestra exploración\n\nPresiona T (A en el mando) para usar la puerta", 4);
             FlagLlave = true;
         }
     }
