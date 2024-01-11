@@ -54,8 +54,7 @@ public class controlador_libro : MonoBehaviour
 
         if (!Flaglibro)
         {
-            //SESION 2
-            //Mismo codigo que el de mover las arañas hacia el zombie pero al reves.
+
             AddOnePoint();
             Debug.Log("Has mirado a libro");
 
