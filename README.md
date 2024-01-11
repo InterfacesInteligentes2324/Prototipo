@@ -13,6 +13,12 @@ En el presente documento se recoge el trabajo realizado a la hora de desarrollar
 
 Se trata de un juego de pistas de temática tenebrosa, en el que se debe ir siguiendo indicaciones y realizando tareas, hasta llegar al final del mismo. Se trata de una idea original, en la que hemos intentado integrar las diferentes prácticas que se han realizado durante el curso.
 
+> Link a la apk
+>
+> https://drive.google.com/file/d/1jWRZQOe_JZ1toQjNBu-qWO49CHJd3_ds/view?usp=sharing
+>
+> ![](./QR/apk.png)
+
 # Modo de uso
 
 El presente juego debe jugarse con mando o teclado, ya que se debe poder controlar el movimiento del jugador y las teclas de acción del juego.
