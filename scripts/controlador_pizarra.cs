@@ -56,8 +56,7 @@ public class controlador_pizarra : MonoBehaviour
     public void OnPointerEnter()
     {
         if (!FlagPizarra) {
-            //SESION 2
-            //Mismo codigo que el de mover las arañas hacia el zombie pero al reves.
+           
             AddOnePoint();
             Debug.Log("Has mirado a la pizarra");
 
