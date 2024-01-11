@@ -89,7 +89,6 @@ A parte de eso, nos hemos tenido que coordinar para trabajar de manera asíncron
 2. Creción de los eventos principales del juego para los controladores, por ejemplo AparecerLlave(), que se encarga de activar el objeto llave cuando se han recogido todas las maletas o la estructura base de los controladores, asi como algunos más concretos como controlador_caja que se encarga también del movimiento de la caja en el evento
 3. A lo anterior, tambien se une algunas partes claves para el juego, como por ejemplo la implementación de la llave y la base para la lógica del teletransporte
 4. Por otro lado, implementé todo lo relacionado con sensores, es decir, las estatuas que giran en el hangar siguiendo los conocimientos de clase.
-5. 
 6. Me encargué de corregir los errores que iban surgiendo durante el desarrolló del proyecto asi como de ser un poco el que ha dirigido el proyecto
    
 
