@@ -93,8 +93,12 @@ A parte de eso, nos hemos tenido que coordinar para trabajar de manera asíncron
    
 
 #### Laura
-1. Preparación de la UI de texto para colocar las pistas del usuario.
-2. asd
+
+1. Inicié el proyecto configurando la interfaz de usuario (UI) para mostrar texto, lo cual incluye la implementación de un sistema de pistas para los usuarios, así como un contador que lleva registro del progreso dentro del juego, y el script asociado.
+2. Desarrollé la última sala del juego, para lo cual importé diversos elementos como el paquete de la casa, el tesoro y el clipboard, asegurándome de que todos los componentes se integraran correctamente en el entorno virtual. Además, me encargué de escribir los scripts de estos elementos, incluyendo la linterna,
+3. Implementé un sistema de reconocimiento por voz, diseñado específicamente para interactuar con el tesoro dentro del juego, permitiendo a los usuarios abrirlo mediante comandos de voz.
+4. Me encargué de la creación de la narrativa y los diálogos del juego, elaborando una historia envolvente que enriquece la experiencia del jugador.
+5. Finalicé el proyecto configurando y adaptando todos los elementos necesarios para exportarlo como una aplicación (apk), asegurándome de que el juego fuera compatible y funcionara de manera óptima en dispositivos móviles.
    
 #### Helena
 
