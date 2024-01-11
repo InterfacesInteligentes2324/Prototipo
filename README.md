@@ -32,12 +32,23 @@ El presente juego debe jugarse con mando o teclado, ya que se debe poder control
 
 # Hitos de programación logrados
 
-1. Uso de delegados y eventos a lo largo de todo el juego.
-2. Uso de físicas en el juego.
-3. Movimiento del jugador.
-4. Uso del Google Cardboard para inmersión e interacción con los objetos del entorno.
-5. Uso de elementos de audio, así como reconocimiento del habla.
-6. Uso de sensores del móvil.
+## 1. Uso de Delegados y Eventos
+Implementamos delegados y eventos para manejar acciones específicas en el juego. Por ejemplo, en nuestro controlador de llaves (`controlador_llave.cs`), utilizamos estos mecanismos para notificar cuando una llave es recogida. Definimos delegados como `public delegate void KeyCollectedAction()` y eventos asociados, que luego se disparan en momentos clave del juego, permitiendo una comunicación efectiva y modular entre diferentes scripts.
+
+## 2. Uso de Físicas
+En nuestro manejo de físicas, utilizamos componentes `Rigidbody` para agregar realismo. Un ejemplo claro es en nuestro `controlador_caja.cs`, donde aplicamos físicas para simular la interacción con una caja. Implementamos colisiones y fuerzas para crear una experiencia de juego más inmersiva, empleando métodos como `OnCollisionEnter` y `AddForce`.
+
+## 3. Movimiento del Jugador
+Desarrollamos un sistema de control del jugador utilizando `Input.GetAxis` para capturar entradas del teclado o joystick. Aplicamos estas entradas para mover el objeto del jugador usando transformaciones y ajustes en su `Rigidbody`, logrando un movimiento fluido y receptivo.
+
+## 4. Uso del Google Cardboard
+Integramos el SDK de Google Cardboard para transformar el juego en una experiencia de realidad virtual. Configuramos la cámara de Unity para adaptarla a las necesidades de VR y desarrollamos un sistema de interacción basado en la mirada y el uso de controladores VR, permitiendo a los usuarios interactuar de manera intuitiva con el entorno virtual.
+
+## 5. Uso de Elementos de Audio y Reconocimiento del Habla
+Implementamos un sistema de audio utilizando `AudioSource` y `AudioClip` para reproducir sonidos ambientales y efectos. Además, planeamos integrar un SDK de reconocimiento de voz, lo que permitiría a los jugadores interactuar con el juego mediante comandos de voz, aumentando la inmersión y la accesibilidad.
+
+## 6. Uso de Sensores del Móvil
+Aprovechamos los sensores del móvil, como el acelerómetro y el giroscopio, accesibles a través de `Input.acceleration` y `Input.gyro`. Estos datos se utilizaron para controlar aspectos del juego como la orientación de la cámara y el movimiento del personaje, ofreciendo una experiencia de juego más integrada y reactiva a los movimientos físicos del jugador.
 
 # Funcionamiento de la aplicación
 
@@ -75,7 +86,9 @@ https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/01d3182d
 
 
 
-En la tercera habitación, aparecemos en una casa y
+En la tercera habitación, ambientada en una casa misteriosa, el jugador debe hallar una nota oculta. A primera vista, la nota parece estar en blanco, pero revela su contenido bajo una luz especial. Para esto, el jugador debe encontrar una linterna específica. Una vez iluminada la nota, se despliega un acertijo.
+
+Aquí empleamos un sistema de reconocimiento de habla: el jugador se acerca al cofre, lo observa y verbaliza la respuesta del acertijo. Si acierta, el cofre se abre automáticamente. Paralelamente, un sistema de delegados y eventos controla el progreso del juego, asegurando que las acciones se realicen en el orden correcto y aumentando un contador de objetivos para mantener el flujo narrativo y lógico del juego.
 
 # Acta de trabajo
 
