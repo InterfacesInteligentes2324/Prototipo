@@ -133,3 +133,10 @@ A parte de eso, nos hemos tenido que coordinar para trabajar de manera asíncron
 4. Adición del hangar. Adrián y yo estuvimos buscando diferentes modelos en la AssetStore y encontramos este que era un espacio amplio que nos permitía hacer las ideas que teníamos, además de que pesaba poco. Al principio el jugador podía traspasar las paredes, con lo que creé un objeto vacío de paredes, y fui añadiendo objetos con rigidbodies y boxcolliders, y los modifiqué para que coincidienran con las paredes pero no se chocaran entre sí.
 5. Busqué un objeto de maleta en la AssetStore y le añadí un rigidbody y le ajusté la mesh de un boxcollider, para que el jugador pudiera chocar con ella. Además, le añadí un script utilizando delegados y eventos, para que cuando detectara una colisión con el jugador, lo notificara como que se había recogido una maleta, y desactivara el objeto. De esta manera, en el controlador del texto, se recibe este mensaje y se va aumentando el contador de maletas recogidas. de esta manera, luego sólo tuve que copiar este elemento y usarlo como prefab para tener la cantidad de maletas que quisiera.
 6. También he realizado la mayor parte de la redacción del informe, a excepción de la parte de esta acta donde se recoge el trabajo de cada uno.  También realicé la grabación de las escenas del juego, tanto en pc como en móvil (era la única que tenía dispositivo Android) y su posterior edición para que pudieran ser subidas al proyecto.
+
+
+> Link al proyecto completo de Unity
+>
+> https://drive.google.com/file/d/1sf7SF3ONx9yfi-jUgp6RQH7IIeIrgEtH/view
+>
+> ![](./QR/proyecto.png)
