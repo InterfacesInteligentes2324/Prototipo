@@ -95,6 +95,17 @@ En la tercera habitación, ambientada en una casa misteriosa, el jugador debe ha
 
 Aquí empleamos un sistema de reconocimiento de habla: el jugador se acerca al cofre, lo observa y verbaliza la respuesta del acertijo. Si acierta, el cofre se abre automáticamente. Paralelamente, un sistema de delegados y eventos controla el progreso del juego, asegurando que las acciones se realicen en el orden correcto y aumentando un contador de objetivos para mantener el flujo narrativo y lógico del juego.
 
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/bcc3630f-e05d-4937-a370-536ff523d58f
+
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/7c3a7b87-eeca-469a-b289-8b2745642b9b
+
+
+https://github.com/InterfacesInteligentes2324/Prototipo/assets/72279658/51ef3a13-e7e4-417a-b698-599a3cb1b4ab
+
+
+
 Aquí se puede ver una simulación en móvil. La calidad está algo reducida, ya que fue grabado directamente en la pantalla del mismo, pero en ella se puede ver que el juego funciona de manera fluida y según como se espera. Llegamos a ver hasta la llegada al hangar, ya que el movimiento del jugador se podrá ver en clase, utilizando el mando de la profesora. Pero hemos hecho pruebas en Unity con un mando de Xbox y funcionaba perfectamente.
 
 
