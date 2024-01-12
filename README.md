@@ -39,7 +39,7 @@ El presente juego debe jugarse con mando o teclado, ya que se debe poder control
 # Hitos de programación logrados
 
 ## 1. Uso de Delegados y Eventos
-Implementamos delegados y eventos para manejar acciones específicas en el juego. Por ejemplo, en nuestro controlador de llaves (`controlador_llave.cs`), utilizamos estos mecanismos para notificar cuando una llave es recogida. Definimos delegados como `public delegate void KeyCollectedAction()` y eventos asociados, que luego se disparan en momentos clave del juego, permitiendo una comunicación efectiva y modular entre diferentes scripts.
+Implementamos delegados y eventos para manejar acciones específicas en el juego. Por ejemplo, en nuestro controlador de llaves (`controlador_llave.cs`), utilizamos estos mecanismos para notificar cuando una llave es recogida. Definimos delegados y eventos asociados, que luego se disparan en momentos clave del juego, permitiendo una comunicación efectiva y modular entre diferentes scripts.
 
 ## 2. Uso de Físicas
 En nuestro manejo de físicas, utilizamos componentes `Rigidbody` para agregar realismo. Un ejemplo claro es en nuestro `controlador_caja.cs`, donde aplicamos físicas para simular la interacción con una caja. Implementamos colisiones y fuerzas para crear una experiencia de juego más inmersiva, empleando métodos como `OnCollisionEnter` y `AddForce`, tal y como se puede ver  en `SuitcaseController.cs` (donde además se puede ver también el uso de delegados y eventos).
