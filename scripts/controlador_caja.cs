@@ -91,6 +91,5 @@ public class controlador_caja : MonoBehaviour
     /// </summary>
     public void OnPointerExit()
     {
-        // Puedes agregar lógica adicional si es necesario cuando dejas de mirar la caja
     }
 }
