@@ -117,6 +117,7 @@ Seguimos las recomendaciones de diseño RV, teniendo en cuenta por ejemplo:
 - Usar Audio espacial para los objetos tengan un sonido localizado, como por ejemplo cuando miras la pizarra.
 - Acciones físicas que se le piden al usuario, como caminar, extender los brazos o agacharse pueden ocasionar accidentes en el mundo real. Unicamente hacemos que se desplace con el mando y observe, nunca eso.
 - Velocidad constante: el jugador se mueve constantantemente.
+- Los cambios de brillo deben ser suaves: Toda la iluminación es homogenea.
 - El resto de puntos los conseguimos mediante la implementación de Google Cardboard.
 
 
