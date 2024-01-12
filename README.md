@@ -48,7 +48,7 @@ En nuestro manejo de físicas, utilizamos componentes `Rigidbody` para agregar r
 Desarrollamos un sistema de control del jugador utilizando `Input.GetAxis` para capturar entradas del teclado o joystick en los ejes vertical y horizontal. Aplicamos estas entradas para mover el objeto del jugador usando transformaciones y ajustes en su `Rigidbody`, logrando un movimiento fluido y receptivo.
 
 ## 4. Uso del Google Cardboard
-Integramos el SDK de Google Cardboard para transformar el juego en una experiencia de realidad virtual. Configuramos la cámara de Unity para adaptarla a las necesidades de VR y desarrollamos un sistema de interacción basado en la mirada y el uso de controladores VR, permitiendo a los usuarios interactuar de manera intuitiva con el entorno virtual.
+Integramos Google Cardboard para transformar el juego en una experiencia de realidad virtual. Configuramos la cámara de Unity para adaptarla a las necesidades de VR y desarrollamos un sistema de interacción basado en la mirada y el uso de controladores VR, permitiendo a los usuarios interactuar de manera intuitiva con el entorno virtual.
 
 ## 5. Uso de Elementos de Audio y Reconocimiento del Habla
 Implementamos un sistema de audio utilizando `AudioSource` y `AudioClip` para reproducir sonidos ambientales y efectos. Además, planeamos integrar un SDK de reconocimiento de voz, lo que permitiría a los jugadores interactuar con el juego mediante comandos de voz, aumentando la inmersión y la accesibilidad.
